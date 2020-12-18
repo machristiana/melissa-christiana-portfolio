@@ -498,6 +498,147 @@ textarea {
 
 /*==========================
 
+  Illustrator Page Styling
+
+===========================*/
+
+.container-illustrator {
+  background: rgb(228, 207, 195);
+}
+
+.ai-projects {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ai-title {
+  font-family: "Montserrat", sans-serif;
+  padding: 70px 50px 50px 50px;
+  color: rgb(121, 115, 81);
+  text-decoration: underline;
+}
+
+.ai1,
+.ai2,
+.ai3 {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+  margin: 0 20px 0;
+}
+
+.ai4 {
+  position: relative;
+  left: 40px;
+}
+
+.ai5 {
+  position: relative;
+  top: -212px;
+  left: 40px;
+}
+
+.ai6 {
+  position: relative;
+  right: 325px;
+}
+
+.ai8 {
+  position: relative;
+  left: 95px;
+  bottom: 380px;
+}
+
+.ai7 {
+  position: relative;
+  bottom: 60px;
+  left: 135px;
+}
+
+.ai4,
+.ai5,
+.ai6,
+.ai7,
+.ai8 {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+  margin: 0 20px 0;
+}
+
+.caption-5,
+.caption-6 {
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  background: rgb(207, 152, 134);
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(239, 226, 223);
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+.caption-5 {
+  margin-top: 15px;
+  margin-bottom: 120px;
+}
+
+.caption-6 {
+  margin-top: -30px;
+  margin-bottom: 100px;
+}
+
+.gallery-ai {
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.gallery-ai h2 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 5px;
+  color: rgb(121, 115, 81);
+  text-decoration: underline;
+}
+
+.gallery-ai h2:before {
+  content: "\f005";
+  font-family: "FontAwesome";
+  padding-right: 2px;
+}
+
+.gallery-ai1 {
+  position: relative;
+  bottom: 90px;
+}
+
+.gallery-ai2 {
+  position: relative;
+  right: 154px;
+}
+
+.ai-gallery img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.ai-gallery img {
+  filter: grayscale(100%);
+  transition: transform .2s;
+  transition: .3s;
+}
+
+.ai-gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.5);
+  transition: .3s;
+  position: relative;
+  z-index: 9;
+}
+
+/*==========================
+
   Animation Section
 
 ===========================*/
