@@ -10,6 +10,11 @@
 
 <style type="text/css">
 
+@font-face {
+  font-family: "Billie Bonnie";
+  src: url("../fonts/billie-bonnie.ttf") format("truetype");
+}
+
 * {
   border: 0;
   padding: 0;
