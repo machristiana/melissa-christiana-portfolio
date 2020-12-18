@@ -372,6 +372,130 @@ textarea {
   text-shadow: .1px .1px .1px white;
 }
 
+/*=======================
+
+  Photoshop Page Styling
+
+========================*/
+
+.container-photoshop {
+  background: rgb(228, 207, 195);
+}
+
+.ps-projects {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ps-title {
+  font-family: "Montserrat", sans-serif;
+  padding: 70px 50px 50px 50px;
+  color: rgb(121, 115, 81);
+  text-decoration: underline;
+}
+
+.ps1 {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+}
+
+.individual-project-2 {
+  clear: both;
+}
+
+.ps2 {
+  position: relative;
+  top: -208px;
+}
+
+.individual-project-2 img {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+  margin: 0 20px 0;
+}
+
+.individual-project-3 img {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+}
+
+.ps4,
+.ps5 {
+  margin: 0 20px 0;
+}
+
+.ps5 {
+  position: relative;
+  top: -15px;
+}
+
+.ps6 {
+  margin-top: 30px;
+}
+
+.individual-project-4 img {
+  background: rgb(207, 152, 134);
+  padding: 10px;
+  margin: 0 20px 0;
+}
+
+.caption-1,
+.caption-2,
+.caption-3,
+.caption-4 {
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  background: rgb(207, 152, 134);
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 120px;
+  color: rgb(239, 226, 223);
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+.gallery {
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.gallery h2 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 5px;
+  color: rgb(121, 115, 81);
+  text-decoration: underline;
+}
+
+.gallery h2:before {
+  content: "\f005";
+  font-family: "FontAwesome";
+  padding-right: 2px;
+}
+
+.ps-gallery img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.ps-gallery img {
+  filter: grayscale(100%);
+  transition: transform .2s;
+  transition: .3s;
+}
+
+.ps-gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.5);
+  transition: .3s;
+  position: relative;
+  z-index: 9;
+}
+
 /*==========================
 
   Animation Section
