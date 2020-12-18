@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Billie Bonnie";
+  src: url("../fonts/billie-bonnie.ttf") format("truetype");
+}
+
+/*======================
+
+ Universal Styling
+
+=======================*/
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  background: rgb(171, 96, 79);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.main {
+  font-family: "Billie Bonnie", cursive;
+  font-size: 60px;
+  letter-spacing: .025em;
+  font-weight: normal;
+}
+
+.border {
+  display: inline-block;
+}
+
+.border-left,
+.border-right {
+  border-top: 2px solid white;
+  position: relative;
+  width: 160px;
+}
+
+.border-left {
+  right: 150px;
+  top: 6px;
+}
+
+.border-right {
+  left: 150px;
+  bottom: 25px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 7px;
+}
+
+.menu {
+  background: rgb(142, 136, 108);
+  text-align: center;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  background: rgb(142, 136, 108);
+  position: relative;
+  z-index: 9;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 26px 8px 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  transition: .3s;
+}
+
+.menu ul li a:hover {
+  background: white;
+  color: #3c3c3c;
+  transition: .3s;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top:32px;
+  background: rgb(142, 136, 108);
+  width: 100%;
+}
+
+footer {
+  background: rgb(171, 96, 79);
+  position: relative;
+  color: white;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 40px 10px 10px 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat",sans-serif;
+}
+
+footer p a {
+  color: white;
+  padding-left: 5px;
+  font-size: 35px;
+}
+
+.social-media-icons {
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+}
