@@ -131,3 +131,57 @@ footer p a {
   right: 15px;
   bottom: 5px;
 }
+
+/*=======================
+
+ Home Section Styling
+
+========================*/
+
+.home-section {
+  background: rgb(207, 152, 134);
+  position: relative;
+  min-height: 90vh;
+}
+
+.images {
+  text-align: center;
+}
+
+.individual-image {
+  display: inline-block;
+}
+
+.city-image {
+  max-width: 350px;
+  margin: 70px 20px 20px 20px;
+  padding: 10px;
+  background: rgb(239, 226, 223);
+}
+
+.greeting {
+  color: rgb(121, 115, 81);
+  position: absolute;
+  font-family: "Billie Bonnie", cursive;
+  font-weight: normal;
+  font-size: 80px;
+  right: 40px;
+  top: 20px;
+  transform: rotate(10deg);
+  animation: movement 6s forwards 1 linear;
+}
+
+/*==========================
+
+  Animation Section
+
+===========================*/
+
+@keyframes movement {
+  0% {
+    left: -300px;
+}
+  100% {
+    left: 1188px;
+  }
+}
