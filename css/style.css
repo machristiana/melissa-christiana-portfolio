@@ -244,6 +244,134 @@ footer p a {
   position: relative;
 }
 
+/*=======================
+
+ Contact Page Styling
+
+========================*/
+
+.contact-form-section {
+  background: rgb(228, 207, 195);
+  min-height: 100vh;
+}
+
+.container {
+  float: right;
+  margin: 60px 450px 0 0;
+  max-width: 200px;
+}
+
+.contact-heading {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  width: 465px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(121, 115, 81);
+  text-shadow: 1px 1px 1px white;
+}
+
+.contact-form {
+  background: rgb(228, 207, 195);
+  border: 25px solid rgb(171, 96, 79);
+  width: 400px;
+  padding: 5px 0 5px 15px;
+}
+
+.label {
+  display: block;
+  padding: 5px 0;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(121, 115, 81);
+  text-shadow: 1px 1px 1px white;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(121, 115, 81);
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: 2px solid rgb(121, 115, 81);
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit,
+.reset {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.submit input,
+.reset input {
+  padding: 10px;
+  margin: 8px 9px 10px 0;
+  background: rgb(228, 207, 195);
+  color: rgb(121, 115, 81);
+  text-shadow: .5px .5px .2px white;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.submit input:hover,
+.reset input:hover {
+  background: rgb(171, 96, 79);
+  color: rgb(239, 226, 223);
+  text-shadow: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.contact-me-box1 {
+  background: rgb( 121, 115, 81);
+  position: absolute;
+  z-index: 8;
+  height: 120px;
+  width: 250px;
+  left: 125px;
+  top: 380px;
+}
+
+.contact-me-box2 {
+  background: rgb( 171, 96, 79);
+  position: absolute;
+  z-index: 8;
+  height: 120px;
+  width: 250px;
+  left: 387px;
+  bottom: 110px;
+}
+
+.contact-me {
+  width: 400px;
+  float: left;
+  margin: 220px 0 0 150px;
+  background: rgb(216, 179, 153);
+  padding: 30px;
+  position: relative;
+  z-index: 99;
+}
+
+.contact-greeting {
+  font-family: "Billie Bonnie", cursive;
+  font-weight: normal;
+  font-size: 60px;
+  color: rgb(121, 115, 81);
+}
+
+.contact-summary {
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(239, 226, 223);
+  text-shadow: .1px .1px .1px white;
+}
+
 /*==========================
 
   Animation Section
