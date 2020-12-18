@@ -171,6 +171,79 @@ footer p a {
   animation: movement 6s forwards 1 linear;
 }
 
+/*=======================
+
+ About Page Styling
+
+========================*/
+
+.about-section{
+  background: rgb(228, 207, 195);
+  min-height: 110vh;
+}
+
+.about-me {
+  background: rgb(216, 179, 153);
+  max-width: 700px;
+  max-height: 400px;
+  float: right;
+  padding: 20px 20px 0 20px;
+  margin: 190px 70px 0 0;
+  position: absolute;
+  right: 100px;
+  z-index: 9;
+}
+
+.about-me-box {
+  background: rgb( 121, 115, 81);
+  position: absolute;
+  z-index: 8;
+  height: 200px;
+  width: 400px;
+  right: 145px;
+  top: 350px;
+}
+
+.about-greeting-1 {
+  color: rgb(121, 115, 81);
+  font-family: "Billie Bonnie", cursive;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.about-greeting-2 {
+  color: rgb(121, 115, 81);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+.summary,
+.summary2 {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.summary2 {
+  margin-top: 20px;
+}
+
+.closing {
+  color: rgb(121, 115, 81);
+  font-family: "Billie Bonnie", cursive;
+  font-size: 70px;
+  text-align: right;
+}
+
+.about-image {
+  float: left;
+  margin: 70px 0 0 160px;
+  background: rgb(207, 152, 134);
+  padding:40px;
+  position: relative;
+}
+
 /*==========================
 
   Animation Section
